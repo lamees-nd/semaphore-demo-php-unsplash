@@ -12,5 +12,3 @@ services:
       - APP_KEY=SomeRandomStringToAddSecurity123
       - APP_ENV=development
       - APP_DEBUG=true
-      - UNSPLASH_ACCESS_KEY='CYBr-wuTQNC2_77ElavNxcjqEt2gyi1gZY8Z5QgKUSQ'
-      - UNSPLASH_SECRET_KEY='75T2T-ZGEMJ1dssWR0GUore41UawwWE1MNnNEfuXeTE'

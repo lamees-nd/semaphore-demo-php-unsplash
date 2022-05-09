@@ -8,4 +8,6 @@ RUN a2enmod rewrite
 COPY src /var/www/
 RUN chown -R www-data:www-data /var/www
 
-CMD ["start-apache"]
+CMD php artisan config:cache \
+    && php artisan cache:clear \
+    ["start-apache"]
